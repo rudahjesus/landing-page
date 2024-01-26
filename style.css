@@ -1,0 +1,61 @@
+*{
+    background-color: #233349;
+}
+
+.hero{
+background-color: #233349;
+display:flex;
+font-family: Pike Regular;
+
+}
+
+.logo{
+display: flex;
+flex:1;
+font-family: Pike Regular;
+color: #F9FAF8;
+font-size: 24px;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+}
+
+.links-container{
+display: flex;
+flex:1;
+justify-content: center;
+}
+
+.link{
+    color:#E5E7EB;
+    text-decoration: none;
+    margin: 6px;
+    font-family: Pike Regular;
+    font-size: 18px;
+    
+}
+
+.hero.two{
+    padding:50px;
+    flex:1;
+}
+
+.placeholder{
+    display: flex;
+     flex:1;
+     background-color: grey;
+     color:#F9FAF8;
+     justify-content: center;
+     align-items: center;
+     padding: 100px;
+}
+
+.main{
+    display: flex;
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
