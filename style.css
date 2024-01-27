@@ -1,61 +1,93 @@
 *{
-    background-color: #233349;
+    background-color: #272727;
 }
 
-.hero{
-background-color: #233349;
-display:flex;
-font-family: Pike Regular;
+.box {
+    display: flex;
+    border-radius: 10px 30px; /*1*/
+    border: 6px solid transparent; /*2*/
+    background: linear-gradient(45deg,purple,blue) border-box;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding:6.5px
+  }
 
-}
+  img{
+    border-radius: 10%;
+  }
 
 .logo{
-display: flex;
-flex:1;
-font-family: Pike Regular;
-color: #F9FAF8;
-font-size: 24px;
-justify-content: center;
-align-items: center;
-font-weight: bold;
+
+    display: flex;
+    flex:0.25;
+    justify-content: center;
+    align-items: center;
 }
 
-.links-container{
-display: flex;
-flex:1;
-justify-content: center;
-}
-
-.link{
-    color:#E5E7EB;
-    text-decoration: none;
-    margin: 6px;
+.title{
+    display: flex;
+    flex: 1;
+    color:rgb(252, 252, 252);
     font-family: Pike Regular;
-    font-size: 18px;
-    
-}
-
-.hero.two{
-    padding:50px;
-    flex:1;
-}
-
-.placeholder{
-    display: flex;
-     flex:1;
-     background-color: grey;
-     color:#F9FAF8;
-     justify-content: center;
-     align-items: center;
-     padding: 100px;
-}
-
-.main{
-    display: flex;
     font-size: 48px;
-    font-weight:bolder;
-    color:#F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
     flex:1;
     justify-content: center;
     align-items: center;
+}
+
+.login-text{
+ text-decoration: none;
+    color:rgb(252, 252, 252);
+    font-family: Pike Regular;
+    font-size:18px;
+    margin:12px;
+}
+
+.separator{
+    display: flex;
+    padding:100px;
+    flex-direction: column;
+}
+
+.main-text{
+    display: flex;
+    flex: 1;
+    color:rgb(252, 252, 252);
+    font-family: Pike Regular;
+    font-size:22px;
+    align-items: center;
+}
+
+.bp{
+    display: flex;
+    text-transform: none;    
+    border-style: solid;
+    padding: 12px;
+    color:rgb(252, 252, 252);
+    text-decoration: none;
+}
+
+.button{
+    background: none;
+    border-width: 2px;
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-right: 450px;
+    margin-top: 3px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.image-container{
+    display: flex;
+    flex: 1;
+    padding:50px;
 }
