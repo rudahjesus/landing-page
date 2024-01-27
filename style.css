@@ -4,12 +4,12 @@
 
 .box {
     display: flex;
-    border-radius: 10px 30px; /*1*/
+    border-radius: 12px; /*1*/
     border: 6px solid transparent; /*2*/
     background: linear-gradient(45deg,purple,blue) border-box;
     margin: 10px;
     margin-bottom: 30px;
-    padding:6.5px
+    padding:2px
   }
 
   img{
@@ -46,7 +46,7 @@
  text-decoration: none;
     color:rgb(252, 252, 252);
     font-family: Pike Regular;
-    font-size:18px;
+    font-size:26px;
     margin:12px;
 }
 
